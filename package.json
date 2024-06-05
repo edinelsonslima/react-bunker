@@ -1,0 +1,22 @@
+{
+  "name": "react-bunker",
+  "author": "@edinelsonslima",
+  "version": "2.3.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "state-manager-global": "state_manager_global.sh"
+  },
+  "scripts": {
+    "predev": "chmod +x ./state_manager_global.sh",
+    "dev": "./state_manager_global.sh"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
